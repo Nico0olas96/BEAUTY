@@ -1,38 +1,254 @@
-.App {
-  text-align: center;
+/* Estilo del cuerpo */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4e7e1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Contenedor */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Para apilar verticalmente los elementos internos */
+  background-color: #f4e7e1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Contenido */
+.content {
+  padding: 20px;
+  text-align: center; /* Centra el texto */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content h1 {
+  color: #FF4500;
+  font-size: 24px;
+}
+
+.content h2 {
+  color: #8B5E3C;
+  font-size: 36px;
+}
+
+.content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #8B5E3C;
+}
+
+/* Botón */
+.botonera {
   display: flex;
   flex-direction: column;
+}
+
+.btn, .new-client-button {
+  border: 2px solid #8B5E3C;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #f4e7e1;
+  font-size: 16px;
+  color: #8B5E3C;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-decoration: none; /* Quita el subrayado */
+}
+
+.btn:hover, .new-client-button:hover {
+  background-color: #8B5E3C;
+  color: #ddd;
+}
+
+/* Imagen */
+.image {
+  width: 100%;
+  height: 400px;
+  background-image: url('imagen/agustina-pestañas.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Select month */
+.select-month {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Añadido para dar espacio entre el selector de mes y el título */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.select-month label {
+  font-size: 18px;
+  color: #8B5E3C;
+  margin-right: 10px;
+}
+
+.select-month select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  padding-left: 100px;
+  margin-bottom: 20px; /* Añadido para dar espacio entre el título y el selector de mes */
+}
+
+.title h1 {
+  color: #FF4500;
+  font-size: 24px;
+  margin: 0;
+}
+
+.title h2 {
+  color: #8B5E3C;
+  font-size: 36px;
+  margin: 5px 0;
+}
+
+.title p {
+  font-size: 18px;
+  color: #8B5E3C;
+}
+
+/* Stats */
+.stats {
+  padding-bottom: 30px;
+}
+.stats p {
+  font-size: 18px;
+  color: #8B5E3C;
+
+}
+
+/* Client list */
+.client-list label {
+  font-size: 18px;
+  color: #8B5E3C;
+  margin-right: 10px;
+}
+
+.client-list select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+thead {
+  background-color: #e0e0ff;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #e0e0ff;
+  color: #8B5E3C;
+}
+
+/* new cliente*/
+.new-client {
+  margin-top: 20px;
+}
+
+.new-client h3 {
+  font-size: 24px;
+  color: #8B5E3C;
+}
+
+
+.new-client table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.new-client td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  color: #8B5E3C;
+  font-size: 18px;
+}
+
+
+/* botones */
+.new-client td button {
+  padding: 5px 7px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 5px;
+  width: 100%;
+  display: block;  
+}
+
+.new-client td button:hover {
+  background-color: #0056b3;
+}
+
+.btn {
+  padding: 5px 25px;
+  background-color: #6775f8;
+  color: #ffffff;
+  border-radius: 10px;
+  
+  display: inline-block;
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: capitalize;
+  box-shadow: 0 0 20p rgb(0, 0, 0);
+  margin: 10px;
+  cursor: pointer;
+  
+  
+}
+
+.btn:hover {
+  background-color: #202447;
+}
+
+/* input$ */
+
+.inputpeso {  
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  color: #8B5E3C;
+  font-size: 20px;
+}
+.inputText{  
+  border: none;
+  text-align: center;
+  color: #8B5E3C;
+  font-size: 20px;
+
 }
