@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/BEAUTY/static/css/main.b4930e87.css",
-    "main.js": "/BEAUTY/static/js/main.7d8826c2.js",
+    "main.css": "/BEAUTY/static/css/main.7db298fa.css",
+    "main.js": "/BEAUTY/static/js/main.6dbfdc27.js",
     "static/js/453.7c58cc5c.chunk.js": "/BEAUTY/static/js/453.7c58cc5c.chunk.js",
     "static/media/agustina-pestañas.jpg": "/BEAUTY/static/media/agustina-pestañas.d066758b7d4423880b12.jpg",
     "static/media/logo.svg": "/BEAUTY/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/BEAUTY/index.html",
-    "main.b4930e87.css.map": "/BEAUTY/static/css/main.b4930e87.css.map",
-    "main.7d8826c2.js.map": "/BEAUTY/static/js/main.7d8826c2.js.map",
+    "main.7db298fa.css.map": "/BEAUTY/static/css/main.7db298fa.css.map",
+    "main.6dbfdc27.js.map": "/BEAUTY/static/js/main.6dbfdc27.js.map",
     "453.7c58cc5c.chunk.js.map": "/BEAUTY/static/js/453.7c58cc5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4930e87.css",
-    "static/js/main.7d8826c2.js"
+    "static/css/main.7db298fa.css",
+    "static/js/main.6dbfdc27.js"
   ]
 }
